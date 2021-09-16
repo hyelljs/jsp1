@@ -31,16 +31,16 @@ index.html -> 웹 서버 -> 서버에 배포되어있는 존재하는 파일들�
 		String[] names = {"박세리","김연경","허재","안정환"};
 		for(int i=0;i<4;i++){			
 	%>
-		<li><%= i+1 %> : <%= names[i] %><li>
+		<li><%= i+1 %> : <%= names[i] %></li>
 		<%-- <li><%= names[i] + i + 2 %></li> --%>
 	<%
 		}
 		
-		/* MyUser my = new MyUser();
+		 MyUser my = new MyUser();
 		my.setAge(23);
 		my.setName("사나");
 		my.setLocation("서울");
- */	%>
+ 	%>
 	</ul>
 </body>
 </html>
