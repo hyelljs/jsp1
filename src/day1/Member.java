@@ -11,9 +11,14 @@ import lombok.ToString;
 @AllArgsConstructor
 @NoArgsConstructor
 
-public class MyUser {
+public class Member {
 	//필드(또는 프로퍼티,속성)
 	private String name;
+	private String password;
+	private String email;
 	private int age;
-	private String location;
+	private String addr;
+	private String addr_etc;
+	private String gender;
+	private String[] hobby;
 }

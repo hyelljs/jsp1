@@ -40,6 +40,7 @@ index.html -> 웹 서버 -> 서버에 배포되어있는 존재하는 파일들�
 		my.setAge(23);
 		my.setName("사나");
 		my.setLocation("서울");
+		out.print(my);
  	%>
 	</ul>
 </body>
